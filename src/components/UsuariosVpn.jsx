@@ -20,10 +20,11 @@ const UsuariosVpn = () => {
         { field: "title", header: "Oficina" },
         { field: "body", header: "Nombres" }
     ];
-
+    console.table(list);
     return (
         <div>
             <HeaderExport cols={cols} entidad={list}></HeaderExport>
+            
         </div>
     )
 }
